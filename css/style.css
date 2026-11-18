@@ -212,6 +212,13 @@ a {
   cursor: pointer;
 }
 
+a.text-indigo-600,
+a.text-indigo-600:hover,
+a.hover\:text-indigo-800,
+a.hover\:text-indigo-800:hover {
+  color: #228b22;
+}
+
 body {
   font-family: var(--font-body);
   color: var(--text-primary);
@@ -833,7 +840,6 @@ h1, h2, h3, h4, .display-font {
 }
 
 .cta-banner {
-  color: var(--palette-white);
   box-shadow: 0 30px 60px -40px color-mix(in srgb, var(--palette-shade-111827) 70.0%, transparent);
   border-radius: 30px;
   gap: 2rem;
@@ -3703,10 +3709,6 @@ footer .brand-logo .brand-word-end, .home-page footer .brand-logo .brand-word-en
   color: var(--palette-white);
   font-size: 1rem;
   line-height: 1.7;
-}
-
-.home-page .feature-badge--light, .home-page .price-frame--premium .text-indigo-100, .home-page .cta-banner .text-gray-300 {
-  color: var(--palette-white);
 }
 
 .home-page .portal-icon-badge {
