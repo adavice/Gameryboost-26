@@ -3576,7 +3576,7 @@ footer .brand-logo .brand-word-end, .home-page footer .brand-logo .brand-word-en
 }
 
 .hero-featured-game {
-  background-color: var(--palette-yellow-green);
+  background: var(--palette-page);
   border-color: var(--palette-gold);
   border-top-color: var(--palette-orange);
   position: relative;
@@ -3584,7 +3584,6 @@ footer .brand-logo .brand-word-end, .home-page footer .brand-logo .brand-word-en
 }
 
 .hero-featured-caption {
-  background: linear-gradient(transparent, var(--palette-yellow-green));
   justify-content: space-between;
   position: relative;
 }
@@ -3605,7 +3604,7 @@ footer .brand-logo .brand-word-end, .home-page footer .brand-logo .brand-word-en
 
 .hero-genre-row a {
   border: 1px solid var(--palette-shade-495d34);
-  background: var(--palette-yellow-green);
+  background: var(--palette-page);
   border-color: var(--palette-yellow-green);
   color: var(--palette-text);
   align-items: center;
