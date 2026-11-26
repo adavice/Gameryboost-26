@@ -2047,6 +2047,12 @@ input[type="checkbox"] {
   .games-grid-enhanced a:hover {
     transform: translateY(-4px)scale(1.02);
   }
+
+  .home-page .hero-cta{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 .games-showcase-section .pagination {
