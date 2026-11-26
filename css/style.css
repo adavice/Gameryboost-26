@@ -2053,6 +2053,10 @@ input[type="checkbox"] {
     justify-content: center;
     width: 100%;
   }
+
+  .home-page .portal-cta{
+    width: 100%;
+  }
 }
 
 .games-showcase-section .pagination {
